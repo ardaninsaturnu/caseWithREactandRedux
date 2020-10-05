@@ -1,0 +1,118 @@
+
+/*---------button-style------------*/
+
+.alertList {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.buttons-area {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 1rem 0;
+
+}
+
+
+  /*----------list-style------------*/
+
+  .cardBody{
+  width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .pointBox {
+      width: 80px;
+      height: 80px;
+      background-color: rgba(167, 167, 167, 0.47);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+  }
+
+
+  .removeButton {
+    display: none;
+  }
+
+  .cardBody:hover .removeButton {
+    display: block;
+  }
+
+
+
+  .modalBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .angle {
+    font-size: 2rem;
+  }
+
+  .voteButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    outline: none;
+
+  }
+
+  .voteButton:focus {
+    outline: none;
+  }
+
+
+
+  /*---------------book-----------------*/
+
+
+  @media screen and (max-width: 1350px) {
+   
+    .buttons-area {
+      padding-bottom: 2rem;
+    }
+
+
+    .card-Body {
+      width: 80%;
+      margin: 1rem 0;
+    }
+
+
+  }
+
+  /*--------------tablet---------------*/
+
+  @media screen and (max-width: 1024px) {
+
+      .card-Wrapper {
+
+        width: 100%;
+
+      }
+
+  }
+
+  /*--------------mobile---------------*/
+
+  @media screen and (max-width: 780px) {
+
+
+
+
+  }
