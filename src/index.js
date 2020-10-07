@@ -4,9 +4,15 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import List from "./pages/List/List";
 
 
+if (localStorage.getItem("linkList") === null) {
 
+    localStorage.setItem("linkList","{list:[]}")
+
+
+}
 
 ReactDOM.render(
 
